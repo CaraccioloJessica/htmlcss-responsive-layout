@@ -223,8 +223,6 @@ header a{
 
 /****** TESTIMONIALS ******/
 .testimonials{
-  display: flex;
-  flex-direction: column;
   padding-top: 60px;
   padding-bottom: 50px;
 }
@@ -256,8 +254,37 @@ header a{
   width: 100%;
   border-radius: 30px;
   margin-bottom: 20px;
+  padding: 20px;
+  color: #fff;
   /* debug */
+  min-height: 190px;
+}
+
+.test-card p {
+  padding-top: 2rem;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.rounder{
+  width: 150px;
   height: 150px;
+  margin-right: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+}
+
+.rounder img{
+  margin-left: -25%;
+  height: 100%;
+  width: auto;
+}
+
+.name{
+  margin-top: 20px;
+  font-size: 14px;
 }
 
 /****** BENEFIT ******/
