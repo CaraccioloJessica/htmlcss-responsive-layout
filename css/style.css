@@ -168,12 +168,57 @@ header a{
   justify-content: space-between;
 }
 
-.wrap-img{
-  background-color: #fff;
+.wrap-img {
   width: 45%;
   border-radius: 30px;
+  color: #fff;
   /* debug */
   min-height: 400px;
+}
+
+.wrap-img img{
+  width: 100%;
+}
+
+.wrap-img.white img{
+  width: 70%;
+}
+
+.wrap-img h2{
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.wrap-img p{
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.wrap-img.white{
+  background-color: #fff;
+  color: #000;
+  min-height: 100px;
+  padding: 20px 10px;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.wrap-img.white h2{
+ margin: 10px 0 10px;
+ font-size: 16px;
+}
+
+.wrap-img.white a{
+  text-decoration: none;
+  color: #000;
+}
+
+.fa-arrow-down-long{
+  font-size: 12px;
+  margin-top: 20px;
+  padding: 10px 12px;
+  border-radius: 20px;
+  background-color: #9792E4;
 }
 
 /****** TESTIMONIALS ******/
