@@ -151,3 +151,25 @@ header a{
 }
 
 /****** FOOTER ******/
+.ftr-wrap{
+  display: flex;
+  width: 30%;
+  margin: auto;
+  min-height: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* debug */
+  background-color: #fff;
+}
+
+/****** FOOTER BOTTOM ******/
+.black{
+  background-color: #333333;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.ftr-wrap.dark{
+  min-height: 150px;
+}
