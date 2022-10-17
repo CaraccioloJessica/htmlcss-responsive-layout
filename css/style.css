@@ -137,7 +137,6 @@ header a{
 /****** ABOUT US ******/
 .about{
   display: flex;
-  min-height: 700px;
   padding-top: 60px;
   padding-bottom: 50px;
 }
@@ -145,12 +144,14 @@ header a{
 .about-descr{
   width: 70%;
   /* debug */
+  min-height: 400px;
   background-color: #60b5ff;
 }
 
 .about-img{
   width: 30%;
    /* debug */
+   min-height: 400px;
    background-color: #8ecaff;
 }
 
@@ -216,4 +217,63 @@ header a{
   .ftr-wrap{
     width: 60%;
   }
+  }
+
+  /********** SMARTPHONE **********/
+  @media screen and (max-width:480px) {
+    #menu-mobile{
+      display: block;
+      color: #fff;
+      font-size: 30px;
+    }
+  
+    #menu-desktop{
+      display: none;
+    }
+    
+    .cards{
+      display: block;
+    }
+
+    .card, .card.big{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .container{
+      width: 90%;
+    }
+  
+    #wrapper{
+      width: 90%;
+    }
+  
+    #card-wrap{
+      display: block;
+      width: 100%;
+    }
+  
+    .wrap-img{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .card.benefit{
+      width: 90%;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+  
+    .about{
+      display: block;
+    }
+
+    .about-descr, .about-img{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .ftr-wrap{
+      width: 80%;
+    }
   }
