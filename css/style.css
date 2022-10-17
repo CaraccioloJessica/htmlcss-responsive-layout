@@ -123,3 +123,9 @@ margin-bottom: 60px;
   /* debug */
   height: 150px;
 }
+
+/* BENEFIT */
+.card.benefit {
+  background-color: #fff;
+  min-height: 300px;
+}
