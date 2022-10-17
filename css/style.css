@@ -6,11 +6,12 @@
 
 /****** GENERALI ******/
 body{
-  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
+
 .container{
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 
@@ -27,6 +28,7 @@ header{
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 500;
 }
 
 header img{
@@ -48,7 +50,7 @@ header li{
 header a{
   text-decoration: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #menu-mobile{
@@ -60,7 +62,7 @@ header a{
   background-color: #fff;
 }
 
-/****** CARD TOP ******/
+/****** CARD SECTION TOP ******/
 #card-space{
   margin-top: 100px;
   margin-bottom: 60px;
@@ -77,12 +79,48 @@ header a{
   background-color: #B5DDFF;
   width: calc(100% / 3 - 10px);
   border-radius: 20px;
+  font-weight: 700;
   /* debug */
   min-height: 230px;
 }
 
 .card.big{
   width: calc( (100% / 3 - 2px) * 2);
+  position: relative;
+}
+
+#card-descr{
+  width: 55%;
+  padding: 20px;
+}
+
+#card-descr h2{
+  color: #0084fd;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#card-descr p{
+  color: #5a6e7f;
+  font-size: 11px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.btn.blue{
+  text-decoration: none;
+  background-color: #0084fd;
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: 3px;
+  padding: 7px 25px;
+}
+
+.card.big img{
+  width: 10rem;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
 }
 
 /****** APP DEVELOPMENT VIOLET ******/
