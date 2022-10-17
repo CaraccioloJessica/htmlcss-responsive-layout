@@ -3,3 +3,55 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/****** GENERALI ******/
+body{
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.container{
+  width: 60%;
+  margin: auto;
+}
+
+.btn{
+  padding: 6px 13px;
+  border-radius: 30px;
+}
+
+/****** HEADER ******/
+header{
+  background-color: #0084FD;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header img{
+  transform: scale(0.75);
+}
+
+header .container{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header li{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.white{ 
+  color: #000;
+  background-color: #fff;
+}
