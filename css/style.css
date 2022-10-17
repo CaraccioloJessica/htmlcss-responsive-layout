@@ -90,19 +90,19 @@ header a{
 }
 
 #card-descr{
-  width: 55%;
+  width: 60%;
   padding: 20px;
 }
 
 #card-descr h2{
   color: #0084fd;
-  font-size: 15px;
+  font-size: 17px;
   margin-bottom: 20px;
 }
 
 #card-descr p{
   color: #5a6e7f;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.8;
   margin-bottom: 20px;
 }
@@ -113,14 +113,37 @@ header a{
   color: #fff;
   font-size: 11px;
   letter-spacing: 3px;
-  padding: 7px 25px;
+  padding: 8px 25px;
 }
 
-.card.big img{
-  width: 10rem;
+.card img{
+  width: 32%;
   position: absolute;
   bottom: 0;
-  right: 50px;
+  right: 40px;
+}
+
+.card.top{
+  text-align: center;
+  padding: 15px;
+}
+
+.card.top h2{
+  color: #0084fd;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.card.top p{
+  color: #5a6e7f;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.card.top i{
+  color: #0084fd;
+  font-size: 55px;
+  margin-bottom: 20px;
 }
 
 /****** APP DEVELOPMENT VIOLET ******/
