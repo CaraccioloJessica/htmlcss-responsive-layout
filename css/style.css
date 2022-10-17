@@ -229,6 +229,28 @@ header a{
   padding-bottom: 50px;
 }
 
+#test-title{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#test-title h4{
+ font-weight: 500;
+ margin-bottom: 20px;
+ font-size: 14px;
+}
+
+#test-title h2{
+  color: #9792E4;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#test-title p{
+  font-size: 13px;
+  line-height: 1.8;
+}
+
 .test-card{
   background-color: #9792E4;
   width: 100%;
