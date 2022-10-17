@@ -336,6 +336,24 @@ header a{
     margin-bottom: 20px;
   }
 
+  .wrap-img h2{
+    font-size: 50px;
+  }
+
+  .wrap-img p {
+    font-size: 16px;
+  }
+
+  .wrap-img.white h2 {
+  font-size: 22px;
+  }
+
+  .fa-arrow-down-long {
+    font-size: 16px;
+    padding: 15px 17px;
+    border-radius: 30px;
+  }
+
   .card.benefit{
     width: calc(100% / 2 - 10px);
   }
