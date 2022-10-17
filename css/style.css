@@ -56,12 +56,12 @@ header a{
   background-color: #fff;
 }
 
-/****** MAIN ******/
-main{
+/****** CARD TOP ******/
+#card-space{
   margin-top: 100px;
+margin-bottom: 60px;
 }
 
-/****** CARD TOP ******/
 .cards{
   display: flex;
   flex-wrap: wrap;
@@ -79,4 +79,30 @@ main{
 
 .card.big{
   width: calc( (100% / 3 - 2px) * 2);
+}
+
+/****** APP DEVELOPMENT VIOLET ******/
+.violet{
+  background-color: #9792E4;
+  width: 100%;
+  padding-top: 60px;
+  min-height: 500px;
+}
+
+#wrapper{
+  width: 45%;
+  margin: auto;
+}
+
+#card-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-img{
+  background-color: #fff;
+  width: 45%;
+  border-radius: 20px;
+  /* debug */
+  min-height: 400px;
 }
