@@ -376,6 +376,18 @@ header a{
     border-radius: 30px;
   }
 
+  #test-title h4{
+    font-size: 20px;
+   }
+   
+   #test-title h2{
+     font-size: 35px;
+   }
+   
+   #test-title p{
+     font-size: 17px;
+   }
+
   .card.benefit{
     width: calc(100% / 2 - 10px);
   }
