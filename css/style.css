@@ -86,6 +86,7 @@ margin-bottom: 60px;
   background-color: #9792E4;
   width: 100%;
   padding-top: 60px;
+  padding-bottom: 50px;
   min-height: 500px;
 }
 
@@ -128,4 +129,26 @@ margin-bottom: 60px;
 .card.benefit {
   background-color: #fff;
   min-height: 300px;
+}
+
+/* ABOUT US*/
+.about, .about-img{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about{
+  width: 70%;
+  float: left;
+  /* debug */
+  background-color: #B5DDFF;
+  min-height: 400px;
+}
+
+.about-img{
+  width: 30%;
+  float: left;
+   /* debug */
+   background-color: #8ecaff;
+   min-height: 400px;
 }
