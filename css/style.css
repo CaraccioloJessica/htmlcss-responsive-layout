@@ -503,10 +503,6 @@ header a{
     font-size: 15px;
   }
 
-  #card-descr h2, .card.top h2{
-    font-size: 20px;
-  }
-
   .card.big{
     flex-direction: column;
   }
