@@ -154,7 +154,7 @@ header a{
 .violet{
   background-color: #9792E4;
   width: 100%;
-  padding-top: 60px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -287,9 +287,48 @@ header a{
 }
 
 /****** BENEFIT ******/
+.violet h2{
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
 .card.benefit {
   background-color: #fff;
   min-height: 300px;
+  padding: 20px;
+}
+
+.card.benefit span{
+  font-size: 50px;
+  color: #9792E4;
+}
+
+.card.benefit h3{
+  font-size: 20px;
+  color: #9792E4;
+  margin-bottom: 15px;
+}
+
+.card.benefit p{
+  font-size: 11px;
+  color: #5a6e7f;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.card.benefit a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.lilac{
+  background-color: #9792E4;
+  font-size: 10px;
+  letter-spacing: 3px;
+  padding: 6px 25px;
 }
 
 /****** ABOUT US ******/
