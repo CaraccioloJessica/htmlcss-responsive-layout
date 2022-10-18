@@ -272,7 +272,6 @@ header a{
   margin-right: 40px;
   border-radius: 50%;
   overflow: hidden;
-  display: inline-block;
   float: left;
 }
 
@@ -405,15 +404,15 @@ header a{
 
   #test-title h4{
     font-size: 20px;
-   }
+  }
    
    #test-title h2{
      font-size: 35px;
-   }
+  }
    
    #test-title p{
      font-size: 17px;
-   }
+  }
 
   .card.benefit{
     width: calc(100% / 2 - 10px);
@@ -462,20 +461,31 @@ header a{
       width: 100%;
       margin-bottom: 20px;
     }
+    
+  .test-card{
+    text-align: center;
+  }
   
-    .card.benefit{
-      width: 90%;
-      margin: auto;
-      margin-bottom: 20px;
-    }
+  .rounder{
+    float: none;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+  }
   
-    .about{
-      display: block;
-    }
+  .card.benefit{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 
-    .about-descr, .about-img{
-      width: 100%;
-      margin-bottom: 20px;
+  .about{
+    display: block;
+  }
+
+  .about-descr, .about-img{
+    width: 100%;
+    margin-bottom: 20px;
     }
 
     .ftr-wrap{
