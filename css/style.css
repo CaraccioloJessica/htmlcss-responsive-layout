@@ -418,7 +418,7 @@ header a{
 
 .violet .ftr-wrap h3 {
   color: #fff;
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 20px;
 }
 
@@ -470,7 +470,13 @@ header a{
 
 /*********** RESPONSIVE ************/
   /******* TABLET *******/
-@media screen and (max-width:768px) {
+@media screen and (min-width:811px) and      (max-width:1060px) {
+  .container{
+    width: 75%;
+  }  
+}
+
+@media screen and (max-width:810px) {
   #menu-mobile{
     display: block;
     color: #fff;
