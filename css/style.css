@@ -409,26 +409,26 @@ header a{
   /* background-color: #fff; */
 }
 
-.ftr-wrap h4 {
+.violet .ftr-wrap h4 {
   font-weight: lighter;
   color: #d5d4f4;
   font-size: 15px;
   margin-bottom: 20px;
 }
 
-.ftr-wrap h3 {
+.violet .ftr-wrap h3 {
   color: #fff;
   font-size: 30px;
   margin-bottom: 20px;
 }
 
-.ftr-wrap h2 {
+.violet .ftr-wrap h2 {
   color: #FDC15F;
   font-size: 60px;
   margin-bottom: 20px;
 }
 
-.ftr-wrap p{
+.violet .ftr-wrap p{
   color: #fff;
   font-size: 10px;
   width: 60%;
@@ -437,7 +437,7 @@ header a{
   text-align: center;
 }
 
-.ftr-wrap a{
+.violet .ftr-wrap a{
   text-decoration: none;
   font-size: 12px;
   letter-spacing: 2px;
@@ -454,11 +454,18 @@ header a{
   background-color: #333333;
   width: 100%;
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 
-.ftr-wrap.dark{
-  min-height: 150px;
+.dark p{
+  color: #fff;
+  width: 55%;
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.dark a{
+  color: #9792E4;
 }
 
 /*********** RESPONSIVE ************/
