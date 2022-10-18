@@ -340,16 +340,65 @@ header a{
 
 .about-descr{
   width: 70%;
+  padding: 0 20px;
   /* debug */
   min-height: 400px;
-  background-color: #60b5ff;
+}
+
+.about-descr h2{
+  color: #9792E4;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.about-descr p{
+  font-size: 13px;
+  line-height: 2.2;
+  margin-bottom: 20px;
 }
 
 .about-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 30%;
-   /* debug */
-   min-height: 400px;
-   background-color: #8ecaff;
+  position: relative;
+}
+
+.about-img img{
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-img .fa-quote-left{
+  color: #9792E4;
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  right: 40px;
+}
+
+.about-img h3{
+  color: #9792E4;
+  font-size: 18px;
+  line-height: 1.4;
+  padding: 10px 40px;
+}
+
+.about-img a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 9px;
+  padding: 6px 15px;
+  border-radius: 20px;
+  background-color: #9792E4;
+  align-self: flex-start;
+  margin-left: 40px;
+}
+
+.fa-linkedin{
+  margin-right: 5px;
 }
 
 /****** FOOTER ******/
